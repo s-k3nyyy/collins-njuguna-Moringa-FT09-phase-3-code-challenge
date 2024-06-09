@@ -16,5 +16,5 @@ class TestModels(unittest.TestCase):
         magazine = Magazine(1, "Tech Weekly")
         self.assertEqual(magazine.name, "Tech Weekly")
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()
