@@ -1,6 +1,8 @@
+# models/magazine.py
+
 class Magazine:
     def __init__(self, name, category):
-        self._id = None  
+        self._id = None
         self.name = name
         self.category = category
 

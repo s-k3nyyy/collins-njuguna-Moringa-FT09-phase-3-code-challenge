@@ -1,4 +1,4 @@
-def create_tables(library):
+def create_tables():
     from .connection import get_db_connection
     with get_db_connection() as conn:
         cursor = conn.cursor()
